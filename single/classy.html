@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>classy wedding</title>
+  <link rel="stylesheet" href="classy.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js" /></script>
+  <script src="classy.js"></script>
+<!-- slider -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<!-- map -->
+  <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=XySZ0zZ8AcSmAt8yegBK&submodules=geocoder"></script>
+
+ </head>
+ <body>
+  <div class="blackbox"></div>
+  
+  <header class="header">
+	<div class="logo">
+		<a href="#"><img src="img/LOGO.png" alt="logo"></a>
+	</div><!-- logo -->
+	<ul class="topgnb">
+		<li class="aactive"><a href="#">ABOUT</a></li>
+		<li><a href="#">DRESS</a></li>
+		<li><a href="#">STUDIO</a></li>
+		<li><a href="#">EVENT</a></li>
+		<li><a href="#">LOCATION</a></li>
+	</ul><!-- topgnb -->
+	<ul class="gnb">
+			<li class="active"><a href="#">ABOUT</a></li>
+			<li><a href="#">DRESS</a></li>
+			<li><a href="#">STUDIO</a></li>
+			<li><a href="#">EVENT</a></li>
+			<li><a href="#">LOCATION</a></li>
+	</ul><!-- gnb -->
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="close"><img src="img/menu.png" alt="close"></a>	
+<!-- slide gnb -->
+	<div id="mySidenav" class="sidenav">
+
+	  <a href="#">ABOUT</a>
+	  <a href="#">DRESS</a>
+	  <a href="#">STUDIO</a>
+	  <a href="#">EVENT</a>
+	  <a href="#">LOCATION</a>
+	</div>
+	
+	<span onclick="openNav()" class="slidebtn">
+		<img src="img/menu.png" alt="" class="slideimg">
+	</span>
+
+  </header>
+  <div class="abox">
+		<h1 class="a"><span class="aa">A</span>BOUT</h1>
+		<p class="acont">당신이 꿈꿔온 웨딩을 현실로 만드는 공간 CLASSY WEDDING <br>
+
+			[CLASSY WEDDING DRESS]<br>
+			[더스튜디오루체] 루체, 베네루체, CLASSY<br>
+			국내 최대규모의 CLASSY WEDDING DRESS와 감성웨딩사진 더스튜디오루체가<br>
+			가장 아름답게 빛날 당신의 결혼을 디자인합니다.<br>
+			수준높은 서비스와 차별화된 상품으로 웨딩의 소중한 기억을 영원히 간직하시기 바랍니다.</p>
+  </div><!-- abox -->
+  
+  <section class="section">
+	<div class="about"></div><!-- about -->		
+
+	<div class="dress">
+		<nav class="dbox">
+			<h1><span class="d">D</span>RESS</h1>
+			<p>이 시대의 여자들이 꿈꾸는 드레스이자,<br>
+			먼 훗날 그녀의 딸이 꿈꾸게 될 최고의 드레스.<br>
+			국내최대규모의 디자인실을 운영하고 있는 CLASSY WEDDING DRESS 는<br>
+			많은 셀러브리티와 신부님의 사랑을 받은
+			국내 최정상의 웨딩드레스 그룹입니다. <br>
+			심플하면서도 세련된 디자인으로 예식에서 가장 돋보이는 
+			완벽한 컨셉의 드레스를 제안합니다.</p>
+		</nav><!-- dbox -->
+		<div class="bxslider">
+		  <div><img src="img/d1.png"></div>
+		  <div><img src="img/d2.png"></div>
+		  <div><img src="img/d3.png"></div>
+		  <div><img src="img/d4.png"></div>
+		  <div><img src="img/d5.png"></div>
+		  <div><img src="img/d6.png"></div>
+		</div><!-- bxslider -->
+	</div><!-- dress -->
+	
+	<div class="studio">
+		<nav class="bigbox">
+			<img src="img/x.png" alt="" class="close">
+			<img src="img/lu.png" alt="" class="bigimg">
+		</nav><!--bigbox -->		
+		
+		<ul class="st">
+			<li class="sec1">	
+				<img src="img/lu.png" alt="" data-bi="img/lu.png" />
+			</li>
+			<li class="sec2">
+				<img src="img/be.png" alt="" data-bi="img/be.png" />
+			</li>
+			<li class="sec3">
+				<img src="img/cl.png" alt="" data-bi="img/cl.png" />
+			</li>
+		</ul><!-- st -->
+		<nav class="sbox">
+			<h1><span class="s">S</span>TUDIO</h1>
+			<p>세련된 인물중심의 감각적인 포토그라피로,</br>
+				아름다운 순간의 기억을 가장 자연스럽게 담아내는 웨딩사진.</br>
+				신랑 신부의 사랑스러운 모습을 자연스럽게 카메라에 담아 </br>
+				변치않는 아름다움을 간직한 웨딩사진으로 완성합니다. </br>
+				웨딩의 가장 로맨틱한 순간을 꿈이 아닌 현실로 선사하겠습니다. </p>
+		</nav><!-- sbox -->
+	</div><!-- studio -->
+	
+	<div class="event">
+		<div class="bg">
+			<nav class="ebox">
+				<h1><span class="e">E</span>VENT</h1>
+				<p class="cafter">After 액자 제작 이벤트</p>
+					<p class="econt">[CLASSY WEDDING 8월 EVENT]<br>
+					더스튜디오루체에서 촬영하신 신랑신부님들 보고 싶었어요.<br>
+					뜨거운 여름 8월에 다시 만나러 왔습니다.<br>
+					브랜드명과 #CLASSY WEDDING 애프터를 해시태그로<br>
+					촬영하신 사진을 인스타그램에 올려주시면<br>
+					추첨을 통해 아크릴 액자를 제작해 드립니다.<br></p>
+			</nav>	<!-- ebox -->
+		</div><!-- bg -->
+		<div class="img"></div><!-- img -->
+	</div><!-- event -->
+	
+	<div class="location">
+		<div class="loimg">
+			<!-- <img src="img/lo.png" alt=""> -->
+		</div><!-- loimg -->
+		<nav class="lbox">
+			<h1><span class="e">L</span>OCATION</h1>
+			<p class="lcont">처음부터 끝까지 한결같은 서비스로 고객만족을 실천하는 <br>
+			CLASSY WEDDING 의 위치 안내입니다.</p><!-- lcont -->
+		</nav><!-- lbox -->
+		<div id="map"></div>
+		<nav class="address">
+			<p><h3>서울특별시 강남구 신사동 630-13번지</h3></p>
+			<p>TEL : 02.544.1272</p>
+			<p>FAX : 02.544.1273</p>
+		</nav><!-- address -->
+	</div><!-- location -->
+  </section>
+  
+  <ul class="page">
+	<li class="active1"><a href="#">a</a></li>	
+	<li><a href="#">a</a></li>	
+	<li><a href="#">a</a></li>	
+	<li><a href="#">a</a></li>	
+	<li><a href="#">a</a></li>	
+  </ul><!-- page -->
+ 
+  <footer class="footer">
+  
+  </footer>
+
+ <script>
+	function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+	}
+
+
+
+  </script>
+ </body>
+</html>
